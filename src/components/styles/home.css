@@ -1,0 +1,12 @@
+.float-child{
+    width: 45%;
+}
+.float-child#home-content{
+    vertical-align: center;
+}
+.float-container{
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
