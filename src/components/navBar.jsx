@@ -40,6 +40,11 @@ class NavBar extends Component {
               </li>
               <li className="nav-item">
                 <a href="#" className="nav-link">
+                  MathsHelpIreland
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#" className="nav-link">
                   About
                 </a>
               </li>
