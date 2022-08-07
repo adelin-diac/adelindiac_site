@@ -52,7 +52,7 @@ class HomeSection extends Component {
           <p>Hello</p>
           <p className="lead">
             Have a section on Mathshelp ireland and link info about it there
-            Make the email link to a "contact" page that emails you
+            Make the email link to a "contact" section that emails you
           </p>
         </div>
       </div>
