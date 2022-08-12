@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const styles = {
@@ -10,8 +11,7 @@ const NavBar = () => {
     <div className="container">
       <nav
         className="navbar navbar-expand-md navbar-dark"
-        style={{ backgroundColor: "#161718" }}
-      >
+        style={{ backgroundColor: "#161718" }}>
         <a className="navbar-brand" href="#home">
           Adelin Diac
         </a>
@@ -22,8 +22,7 @@ const NavBar = () => {
           data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+          aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -34,18 +33,23 @@ const NavBar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">
+              <a href="#projects" className="nav-link">
                 Projects
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">
+              <a href="#maths" className="nav-link">
                 MathsHelpIreland
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">
+              <a href="#about" className="nav-link">
                 About
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="#contact" className="nav-link">
+                Contact
               </a>
             </li>
           </ul>

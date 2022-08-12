@@ -2,11 +2,12 @@
 
 #root{
   background-color: #161718;
-  height: 100vh;
+  height: 100%;
 }
 .App {
   background-color: #161718;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  height: 100%;
 }
 

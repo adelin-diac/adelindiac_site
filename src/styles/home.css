@@ -8,5 +8,26 @@
     }
     #home-content{
         width: 100% !important;
+        margin-top: 0px !important;
     }
+    #home-content p{
+        font-size: 13px !important;
+    }
+    #home-img{
+        width: 250px !important;
+    }
+}
+.divider{
+    width: 2px;
+    height: 2px;
+    border: 1px solid white;
+    margin: 10px;
+    background-color: white;
+}
+#home-content:hover{
+    cursor: default;
+}
+p:hover span{
+    border-color: grey;
+    background-color: grey;
 }

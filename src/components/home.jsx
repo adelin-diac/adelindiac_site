@@ -6,65 +6,64 @@ const HomeSection = () => {
     <div
       id="home"
       className="float-container"
-      style={styles.floatContainerStyle}
-    >
+      style={styles.floatContainerStyle}>
       <div id="row" style={styles.rowDivStyle}>
         <div id="social-links" style={styles.socialLinksStyle}>
           <a
             href="https://www.github.com/adelin-diac"
             target="_blank"
             rel="noreferrer"
-            style={styles.socialImgStyles}
-          >
+            style={styles.socialImgStyles}>
             <img
               alt="GitHub Logo"
               src="./images/github.png"
-              style={styles.socialImgStyles}
-            ></img>
+              style={styles.socialImgStyles}></img>
           </a>
           <a
             href="https://www.linkedin.com/in/adelin-denis-diac/"
             target="_blank"
             rel="noreferrer"
-            style={styles.socialImgStyles}
-          >
+            style={styles.socialImgStyles}>
             <img
               alt="LinkedIn Logo"
               src="./images/linkedin.png"
-              style={styles.socialImgStyles}
-            ></img>
+              style={styles.socialImgStyles}></img>
           </a>
           <a href="#" style={styles.socialImgStyles}>
             <img
               alt="Email Logo"
               src="./images/email.png"
-              style={styles.socialImgStyles}
-            ></img>
+              style={styles.socialImgStyles}></img>
           </a>
         </div>
         <div
           id="homeImageDiv"
           className="float-child"
-          style={styles.homeImageDivStyle}
-        >
+          style={styles.homeImageDivStyle}>
           <img
             id="home-img"
             style={styles.homeImgStyle}
             src="./images/adelindiac-img.png"
-            alt="Adelin Diac"
-          ></img>
+            alt="Adelin Diac"></img>
         </div>
       </div>
       <div
         id="home-content"
         className="float-child"
-        style={styles.homeContentStyle}
-      >
-        <h3 className="dark">Adelin Diac</h3>
-        <p>Software Engineer & Entrepreneur</p>
-        <p className="lead">
-          Have a section on Mathshelp ireland and link info about it there Make
-          the email link to a "contact" section that emails you
+        style={styles.homeContentStyle}>
+        <h1 style={{ marginBottom: "10px" }}>Adelin Diac</h1>
+        <div
+          id="line"
+          style={{
+            height: "2px",
+            border: "1px solid white",
+            width: "70%",
+            margin: "0 auto",
+            marginBottom: "10px",
+          }}></div>
+        <p style={{ fontWeight: "bold" }}>
+          Software Engineer<span className="divider"></span>Entrepreneur
+          <span className="divider"></span>Mechatronics Student
         </p>
       </div>
     </div>
@@ -93,7 +92,7 @@ const styles = {
     width: "80%",
   },
   homeImgStyle: {
-    width: "250px",
+    width: "300px",
   },
   socialImgStyles: {
     width: "30px",
@@ -103,7 +102,7 @@ const styles = {
   },
   homeContentStyle: {
     width: "90%",
-    marginTop: "30px",
+    marginTop: "70px",
     textAlign: "center",
     marginRight: "50px",
   },
