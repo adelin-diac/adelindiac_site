@@ -27,7 +27,7 @@
 #home-content:hover{
     cursor: default;
 }
-p:hover span{
-    border-color: grey;
-    background-color: grey;
+#home-content:hover span{
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
 }

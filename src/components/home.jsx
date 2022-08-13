@@ -61,7 +61,7 @@ const HomeSection = () => {
             margin: "0 auto",
             marginBottom: "10px",
           }}></div>
-        <p style={{ fontWeight: "bold" }}>
+        <p>
           Software Engineer<span className="divider"></span>Entrepreneur
           <span className="divider"></span>Mechatronics Student
         </p>
@@ -75,7 +75,7 @@ const styles = {
     color: "white",
     display: "flex",
     flexDirection: "row",
-    // height: "270px",
+    height: "px",
   },
   rowDivStyle: {
     display: "flex",
