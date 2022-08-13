@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/home.css";
+import { HashLink as Link } from "react-router-hash-link";
 
 const HomeSection = () => {
   return (
@@ -13,8 +14,9 @@ const HomeSection = () => {
             href="https://www.github.com/adelin-diac"
             target="_blank"
             rel="noreferrer"
-            style={styles.socialImgStyles}>
+            style={styles.githubImg}>
             <img
+              className="home-image"
               alt="GitHub Logo"
               src="./images/github.png"
               style={styles.socialImgStyles}></img>
@@ -25,22 +27,25 @@ const HomeSection = () => {
             rel="noreferrer"
             style={styles.socialImgStyles}>
             <img
+              className="home-image"
               alt="LinkedIn Logo"
               src="./images/linkedin.png"
               style={styles.socialImgStyles}></img>
           </a>
-          <a href="#" style={styles.socialImgStyles}>
+          <Link to="/#contact" style={styles.socialImgStyles}>
             <img
+              className="home-image"
               alt="Email Logo"
               src="./images/email.png"
               style={styles.socialImgStyles}></img>
-          </a>
+          </Link>
         </div>
         <div
           id="homeImageDiv"
           className="float-child"
           style={styles.homeImageDivStyle}>
           <img
+            className="home-image"
             id="home-img"
             style={styles.homeImgStyle}
             src="./images/adelindiac-img.png"
@@ -75,7 +80,8 @@ const styles = {
     color: "white",
     display: "flex",
     flexDirection: "row",
-    height: "px",
+    height: "100vh",
+    paddingTop: "15vh",
   },
   rowDivStyle: {
     display: "flex",
@@ -97,6 +103,13 @@ const styles = {
   socialImgStyles: {
     width: "30px",
     height: "30px",
+    margin: "0 auto",
+    marginBottom: "10px",
+  },
+  githubImg: {
+    width: "30px",
+    height: "30px",
+    scale: "1.1",
     margin: "0 auto",
     marginBottom: "10px",
   },

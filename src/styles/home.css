@@ -8,13 +8,16 @@
     }
     #home-content{
         width: 100% !important;
-        margin-top: 0px !important;
+        margin-top: 20px !important;
     }
     #home-content p{
         font-size: 13px !important;
     }
     #home-img{
         width: 250px !important;
+    }
+    .home-image:hover{
+        scale: 1.2 !important;
     }
 }
 .divider{
@@ -27,7 +30,13 @@
 #home-content:hover{
     cursor: default;
 }
-#home-content:hover span{
-    border-color: rgba(0, 0, 0, 0);
-    background-color: rgba(0, 0, 0, 0);
+
+.home-image{
+    transition: 0.5s;
+}
+#home-img{
+    transition: 1s !important;
+}
+.home-image:hover{
+    scale: 1.4;
 }
