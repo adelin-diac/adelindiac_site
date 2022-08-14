@@ -8,6 +8,7 @@ const Project = (props) => {
         <Link to={props.path}>
           <div>
             <img
+              style={{ width: "100%" }}
               src={props.src}
               className="img-fluid project-img"
               alt={props.heading}></img>

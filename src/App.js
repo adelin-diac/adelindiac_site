@@ -5,7 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import Main from './components/main';
 import Wordle from './components/projects/wordle';
 import ArduinoRoulette from './components/projects/arduinoRoulette';
-import OctalCounter from './components/projects/octalCounter';
+import CollegeElectronics from './components/projects/collegeElectronics';
 import PdfApp from './components/projects/pdfApp';
 import ThisWebsite from './components/projects/thisWebsite';
 import QrApp from './components/projects/qrApp';
@@ -18,7 +18,7 @@ function App() {
         <Route path="/" element={<Main/>} />
         <Route path="/wordle" element={<Wordle />} />
         <Route path="arduino-roulette" element={<ArduinoRoulette/>}/>
-        <Route path="octal-counter" element={<OctalCounter/>}/>
+        <Route path="electronics" element={<CollegeElectronics/>}/>
         <Route path="pdf-app" element={<PdfApp/>}/>
         <Route path="adelindiac-website" element={<ThisWebsite/>}/>
         <Route path="qr-app" element={<QrApp/>}/>

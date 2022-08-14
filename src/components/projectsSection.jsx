@@ -19,14 +19,24 @@ const ProjectsSection = () => {
         <Project
           heading="Wordle (Java)"
           subheading="College Assignment"
-          src="images/projects/wordle/wordle.png"
+          src="images/projects/wordle.png"
           path="/wordle"
         />
-        <Link to="/arduino-roulette">Arduino Roulette</Link>
-        <Link to="/octal-counter">Octal Counter</Link>
-        <Link to="/pdf-app">PDF App</Link>
+        <Project
+          heading="Arduino Contactless Roulette"
+          subheading="Personal Project / College Assignment"
+          src="images/projects/contactless-roulette2.png"
+          path="/arduino-roulette"
+        />
+        <Project
+          heading="PDF App (Python)"
+          subheading="Personal Project"
+          src="images/projects/pdf-app.png"
+          path="pdf-app"
+        />
+        <Link to="/electronics">College Electronics Projects</Link>
         <Link to="/adelindiac-website">This Website</Link>
-        <Link to="qr-app">QR App (for internship)</Link>
+        {/* <Link to="qr-app">QR App (for internship)</Link> */}
       </div>
     </div>
   );

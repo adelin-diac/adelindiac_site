@@ -33,7 +33,8 @@ const Footer = () => {
           </a>
         </div>
         <div id="footer-info" className="text-center text-light p-3 bg-dark">
-          +353 (89) 446 0081<br></br>adelin334@gmail.com
+          {/* +353 (89) 446 0081<br></br> */}
+          adelin334@gmail.com
         </div>
         <div id="copyright" className="text-center text-light p-3 bg-dark">
           © 2022 Copyright: Adelin Diac

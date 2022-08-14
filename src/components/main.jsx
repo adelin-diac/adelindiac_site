@@ -11,7 +11,6 @@ const Main = () => {
   return (
     <>
       <HomeSection />
-      <Spacer height="30px" />
       <ProjectsSection />
       <Spacer height="30px" />
       <MathsSection />

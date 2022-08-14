@@ -67,8 +67,10 @@ const HomeSection = () => {
             marginBottom: "10px",
           }}></div>
         <p>
-          Software Engineer<span className="divider"></span>Entrepreneur
-          <span className="divider"></span>Mechatronics Student
+          Work in Progress
+          {/* Software Engineer
+          <span className="divider"></span>Entrepreneur
+          <span className="divider"></span>Mechatronics Student */}
         </p>
       </div>
     </div>
