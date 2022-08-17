@@ -1,20 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../styles/projectsSection.css";
 import Project from "./project";
+import LineDivider from "./lineDivider";
 
 const ProjectsSection = () => {
   return (
     <div id="projects" className="text-light container">
       <h2>Personal Projects</h2>
-      <div
-        style={{
-          height: "2px",
-          border: "1px solid white",
-          width: "70%",
-          margin: "0 auto",
-          marginBottom: "50px",
-        }}></div>
+      <LineDivider />
       <div id="projectDiv" className="row">
         <Project
           heading="Wordle (Java)"
@@ -34,8 +27,19 @@ const ProjectsSection = () => {
           src="images/projects/pdf-app.png"
           path="pdf-app"
         />
-        <Link to="/electronics">College Electronics Projects</Link>
-        <Link to="/adelindiac-website">This Website</Link>
+        <Project
+          heading="This Website"
+          subheading="Personal Project"
+          src="images/projects/adelindiac-website.png"
+          path="/adelindiac-website"
+          style={{ boxShadow: "0 0 2px 1px white" }}
+        />
+        <Project
+          heading="College Electronics"
+          subheading="College Assignment"
+          src="images/projects/electronics-0-99-counter.jpg"
+          path="/electronics"
+        />
         {/* <Link to="qr-app">QR App (for internship)</Link> */}
       </div>
     </div>
