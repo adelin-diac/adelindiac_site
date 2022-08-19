@@ -27,8 +27,12 @@
     margin: 10px;
     background-color: white;
 }
+#home-content{
+    transition: 0.5s;
+}
 #home-content:hover{
     cursor: default;
+    scale: 1.1;
 }
 
 .home-image{

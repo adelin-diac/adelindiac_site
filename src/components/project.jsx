@@ -10,7 +10,7 @@ const Project = (props) => {
   }
   return (
     <div className="col-lg-4 col-sm-6 mb-4 container">
-      <div className="portfolio-item">
+      <div className="portfolio-item container">
         <Link to={props.path}>
           <div style={styles.projectStyle}>
             <img

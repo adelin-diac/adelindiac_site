@@ -10,7 +10,7 @@ const ProjectsSection = () => {
       <LineDivider />
       <div id="projectDiv" className="row">
         <Project
-          heading="Wordle (Java)"
+          heading="Wordle"
           subheading="College Assignment"
           src="images/projects/wordle.png"
           path="/wordle"
@@ -22,7 +22,7 @@ const ProjectsSection = () => {
           path="/arduino-roulette"
         />
         <Project
-          heading="PDF App (Python)"
+          heading="PDF App"
           subheading="Personal Project"
           src="images/projects/pdf-app.png"
           path="pdf-app"
@@ -32,7 +32,7 @@ const ProjectsSection = () => {
           subheading="Personal Project"
           src="images/projects/adelindiac-website.png"
           path="/adelindiac-website"
-          style={{ boxShadow: "0 0 2px 1px white" }}
+          style={{ boxShadow: "0 0 4px 1px rgba(255,255,255,0.5)" }}
         />
         <Project
           heading="College Electronics"
@@ -41,6 +41,8 @@ const ProjectsSection = () => {
           path="/electronics"
         />
         {/* <Link to="qr-app">QR App (for internship)</Link> */}
+        Maybe use firestore to load images inside the pages for the projects so
+        that quality is high
       </div>
     </div>
   );

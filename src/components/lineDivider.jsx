@@ -1,6 +1,6 @@
 import React from "react";
 
-const LineDivider = () => {
+const LineDivider = (props) => {
   return (
     <div
       style={{
@@ -8,7 +8,7 @@ const LineDivider = () => {
         border: "1px solid white",
         width: "70%",
         margin: "0 auto",
-        marginBottom: "50px",
+        marginBottom: props.mB ? props.mB : "50px",
       }}></div>
   );
 };

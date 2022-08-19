@@ -12,13 +12,13 @@ const Main = () => {
     <>
       <HomeSection />
       <ProjectsSection />
-      <Spacer height="30px" />
+      <Spacer height="60px" />
       <MathsSection />
-      <Spacer height="30px" />
+      <Spacer height="60px" />
       <About />
-      <Spacer height="30px" />
+      <Spacer height="60px" />
       <ContactPage />
-      <Spacer height="30px" />
+      <Spacer height="60px" />
     </>
   );
 };

@@ -3,10 +3,13 @@
         scale: 1 !important;
     }
 }
+.container-fluid > .row {
+    margin: 0;
+}
 .portfolio-item:hover .project-img{
     /* filter: opacity(85%);
     box-shadow: 0 0 15px 1px white; */
-    scale: 1.03; /* Check that it qorks fine when more projects added in */
+    scale: 1.05; /* Check that it qorks fine when more projects added in */
 }
 .project-img{
     transition: 0.5s;

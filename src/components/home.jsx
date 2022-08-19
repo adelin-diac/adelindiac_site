@@ -82,7 +82,7 @@ const styles = {
     color: "white",
     display: "flex",
     flexDirection: "row",
-    height: "100vh",
+    marginBottom: "40vh",
     paddingTop: "15vh",
   },
   rowDivStyle: {
