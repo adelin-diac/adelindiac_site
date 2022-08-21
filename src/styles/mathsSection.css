@@ -1,6 +1,7 @@
-@media screen and (max-width: 850px){
+@media screen and (max-width: 1000px){
     .maths-content{
         flex-direction: column !important;
+        width: 100% !important;
     }
     .mhi-image{
         margin: 0 auto !important;
@@ -8,6 +9,15 @@
     .text-div{
         margin: 0 !important;
         margin-top: 20px !important;
+    }
+    .maths-links{
+        flex-direction: column !important;
+    }
+    .maths-links a{
+        width: 60%;
+        margin: 0 auto !important;
+        margin-top: 4px !important;
+        margin-bottom: 4px !important;
     }
 }
 .mhi-image{

@@ -80,10 +80,10 @@ const styles = {
   floatContainerStyle: {
     padding: "10px",
     color: "white",
+    height: "100vh",
     display: "flex",
     flexDirection: "row",
-    marginBottom: "40vh",
-    paddingTop: "15vh",
+    paddingTop: "20vh",
   },
   rowDivStyle: {
     display: "flex",
@@ -123,18 +123,4 @@ const styles = {
   },
 };
 
-//THIS IS THE INSTAGRAM IMAGE WITH LINK TO MHI INSTA
-{
-  /* <a
-href="https://www.instagram.com/mathshelp_ireland"
-target="_blank"
-style={socialImgStyles}
->
-<img
-	alt="Instagram Logo"
-	src="./images/instagram.png"
-	style={socialImgStyles}
-></img>
-</a> */
-}
 export default HomeSection;

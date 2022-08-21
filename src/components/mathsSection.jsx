@@ -16,13 +16,12 @@ const MathsSection = () => {
 
   const styles = {
     mathsImageDiv: {
-      width: windowWidth > 850 ? "300px" : "50%",
+      width: windowWidth > 1000 ? "300px" : "50%",
       marginRight: "40px",
-      marginLeft: "80px",
+      marginLeft: "40px",
     },
     textDiv: {
       width: "100%",
-      marginRight: "80px",
       marginLeft: "40px",
       textAlign: "justify",
     },
@@ -35,10 +34,15 @@ const MathsSection = () => {
   return (
     <div id="maths" className="text-light container">
       <h2>Maths Help Ireland</h2>
-      <LineDivider mB={windowWidth > 1000 ? null : "20px"} />
+      <LineDivider mB={windowWidth > 850 ? null : "20px"} />
       <div
         className="maths-content"
-        style={{ display: "flex", flexDirection: "row" }}>
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          width: "80%",
+          margin: "0 auto",
+        }}>
         <div style={styles.mathsImageDiv} className="mhi-image">
           <a
             href="https://www.mathshelpireland.com"
@@ -51,18 +55,58 @@ const MathsSection = () => {
           </a>
         </div>
         <div style={styles.textDiv} className="text-div container">
-          Talk about Maths Help Ireland here<br></br>
-          <br></br>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.<br></br>{" "}
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat.
+          Maths Help Ireland is an online tutoring service founded by me in
+          October 2020.
           <br></br>
           <br></br>
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum.
+          It provides 1-on-1 classes for Junior Cert, Leaving Cert and College
+          students, as well as other study/maths resources.
+          <br></br>
+          <br></br>
+          The main focus is on maths, however classes are also available in
+          other subjects, depending on the tutor chosen.
+          <br></br>
+          <br></br>
+          To find out more, or if you would like to book a class, click on the
+          links below.
+          <br></br>
+          <br></br>
+          <div
+            className="maths-links"
+            style={{
+              textAlign: "center",
+              display: "flex",
+              flexDirection: "row",
+            }}>
+            <a
+              className="btn btn-secondary mx-2 my-2 my-2"
+              href="https://www.mathshelpireland.com"
+              target="_blank"
+              rel="noreferrer">
+              Website
+            </a>
+            <a
+              className="btn btn-danger mx-2 my-2"
+              href="https://www.instagram.com/mathshelp_ireland"
+              target="_blank"
+              rel="noreferrer">
+              Instagram
+            </a>
+            <a
+              className="btn btn-primary mx-2 my-2"
+              href="https://www.facebook.com/mathshelp.ireland"
+              target="_blank"
+              rel="noreferrer">
+              Facebook
+            </a>
+            <a
+              className="btn btn-dark mx-2 my-2"
+              href="https://www.tiktok.com/@mathshelp_ireland"
+              target="_blank"
+              rel="noreferrer">
+              TikTok
+            </a>
+          </div>
         </div>
       </div>
     </div>

@@ -40,9 +40,6 @@ const ProjectsSection = () => {
           src="images/projects/electronics-0-99-counter.jpg"
           path="/electronics"
         />
-        {/* <Link to="qr-app">QR App (for internship)</Link> */}
-        Maybe use firestore to load images inside the pages for the projects so
-        that quality is high
       </div>
     </div>
   );
