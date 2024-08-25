@@ -1,7 +1,13 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div>Hello. This will be adelindiac.site</div>
+    <main className="flex min-h-screen flex-col items-center p-24">
+      <p>Hello. This is the new version of my website.</p>
+      <p>
+        For now, see my old version:{" "}
+        <a className="underline" href="https://adelindiac.site" target="_blank">
+          adelindiac.site
+        </a>
+      </p>
     </main>
   );
 }
