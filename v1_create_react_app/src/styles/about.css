@@ -1,0 +1,25 @@
+.my-toggle{
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.tgl-right{
+    border-radius: 0px 6px 6px 0px;
+    -webkit-transition: all 0.4s ease-out;
+	-moz-transition: all 0.4s ease-out;
+	transition: all 0.4s ease-out;
+}
+.tgl-left{
+    border-radius: 6px 0px 0px 6px;
+}
+.active{
+    background-color: white;
+    border: 1px solid white;
+    color: #161718;
+}
+.my-toggle:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,46 @@
+@media screen and (max-width: 1000px){
+    #home{
+        flex-direction: column !important;
+    }
+    #row{
+        width: 100% !important;
+        flex-direction: row !important;
+    }
+    #home-content{
+        width: 100% !important;
+        margin-top: 20px !important;
+    }
+    #home-content p{
+        font-size: 13px !important;
+    }
+    #home-img{
+        width: 250px !important;
+    }
+    .home-image:hover{
+        scale: 1.2 !important;
+    }
+}
+.divider{
+    width: 2px;
+    height: 2px;
+    border: 1px solid white;
+    margin: 10px;
+    background-color: white;
+}
+#home-content{
+    transition: 0.5s;
+}
+#home-content:hover{
+    cursor: default;
+    scale: 1.1;
+}
+
+.home-image{
+    transition: 0.5s;
+}
+#home-img{
+    transition: 1s !important;
+}
+.home-image:hover{
+    scale: 1.4;
+}
