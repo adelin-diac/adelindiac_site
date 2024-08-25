@@ -1,21 +1,16 @@
 #### v2
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
 v2_nextjs/node_modules
-v2_nextjs/.pnp
-.pnp.js
-.yarn/install-state.gz
 
 # testing
-/coverage
+v2_nextjs/coverage
 
 # next.js
-/.next/
-/out/
+v2_nextjs/.next/
+v2_nextjs/out/
 
 # production
-/build
+v2_nextjs/build
 
 # misc
 .DS_Store
@@ -23,19 +18,13 @@ v2_nextjs/.pnp
 
 # debug
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # local env files
 .env*.local
 
-# vercel
-.vercel
-
 # typescript
 *.tsbuildinfo
-next-env.d.ts
-
+v2_nextjs/next-env.d.ts
 
 #### v1
 v1_create_react_app/.firebase/hosting.YnVpbGQ.cache
