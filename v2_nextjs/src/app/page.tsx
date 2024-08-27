@@ -9,6 +9,8 @@ export default function Home() {
           adelindiac.site
         </a>
       </p>
+      <br />
+      <p>This change should be made automatically</p>
     </main>
   );
 }
