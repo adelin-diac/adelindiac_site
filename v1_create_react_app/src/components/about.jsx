@@ -29,7 +29,10 @@ const About = () => {
     <div id="about" className="text-light container">
       <h2 className="fw-bold">About</h2>
       <LineDivider />
-      <div
+      Will update my this eventually 😂. I currently work as an SRE at Susquehanna International Group.
+          See more of my experience on <a href="https://www.linkedin.com/in/adelin-denis-diac/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+        
+      {/* <div
         style={{
           marginBottom: "50px",
         }}>
@@ -50,8 +53,7 @@ const About = () => {
           display: "flex",
           flexDirection:
             direction === "ascending" ? "column-reverse" : "column",
-        }}>
-        <CareerBlock
+        }}>           <CareerBlock
           year="2022-Present"
           heading="Junior Software Engineer"
           location="Hereworks"
@@ -82,8 +84,8 @@ const About = () => {
           reverse={arrowReversed}
           link="www.dcu.ie"
           position={2}
-        />
-      </div>
+        /> 
+      </div> */}
     </div>
   );
 };
