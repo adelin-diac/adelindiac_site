@@ -1,16 +1,16 @@
 #### v2
 # dependencies
-v2_nextjs/node_modules
+v2-nextjs/node_modules
 
 # testing
-v2_nextjs/coverage
+v2-nextjs/coverage
 
 # next.js
-v2_nextjs/.next/
-v2_nextjs/out/
+v2-nextjs/.next/
+v2-nextjs/out/
 
 # production
-v2_nextjs/build
+v2-nextjs/build
 
 # misc
 .DS_Store
@@ -24,27 +24,27 @@ npm-debug.log*
 
 # typescript
 *.tsbuildinfo
-v2_nextjs/next-env.d.ts
+v2-nextjs/next-env.d.ts
 
 #### v1
-v1_create_react_app/.firebase/hosting.YnVpbGQ.cache
+v1-create-react-app/.firebase/hosting.YnVpbGQ.cache
 
 # dependencies
-v1_create_react_app/node_modules
+v1-create-react-app/node_modules
 
 # testing
-v1_create_react_app/coverage
+v1-create-react-app/coverage
 
 # production
-v1_create_react_app/build
+v1-create-react-app/build
 
 # misc
-v1_create_react_app/.DS_Store
-v1_create_react_app/.env.local
-v1_create_react_app/.env.development.local
-v1_create_react_app/.env.test.local
-v1_create_react_app/.env.production.local
+v1-create-react-app/.DS_Store
+v1-create-react-app/.env.local
+v1-create-react-app/.env.development.local
+v1-create-react-app/.env.test.local
+v1-create-react-app/.env.production.local
 
-v1_create_react_app/npm-debug.log*
-v1_create_react_app/yarn-debug.log*
-v1_create_react_app/yarn-error.log*
+v1-create-react-app/npm-debug.log*
+v1-create-react-app/yarn-debug.log*
+v1-create-react-app/yarn-error.log*
