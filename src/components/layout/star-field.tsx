@@ -10,6 +10,8 @@ interface Star {
   speed: number;
   originalX: number;
   originalY: number;
+  isMoving?: boolean;
+  direction?: { x: number; y: number };
 }
 
 interface StarFieldProps {
@@ -17,6 +19,7 @@ interface StarFieldProps {
   starCount?: number;
   maxDistance?: number;
   interactionRadius?: number;
+  movingStarCount?: number;
 }
 
 export function StarField({
@@ -24,6 +27,7 @@ export function StarField({
   starCount = 150,
   maxDistance = 100,
   interactionRadius = 200,
+  movingStarCount = 50,
 }: StarFieldProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
@@ -50,6 +54,8 @@ export function StarField({
 
     // Generate stars
     const stars: Star[] = [];
+
+    // Static stars (existing behavior)
     for (let i = 0; i < starCount; i++) {
       stars.push({
         x: Math.random() * canvas.width,
@@ -59,14 +65,43 @@ export function StarField({
         speed: Math.random() * 0.5 + 0.1,
         originalX: Math.random() * canvas.width,
         originalY: Math.random() * canvas.height,
+        isMoving: false,
       });
     }
+
+    // Add moving stars
+    for (let i = 0; i < movingStarCount; i++) {
+      const direction = {
+        x: (Math.random() - 0.5) * 0.5,
+        y: (Math.random() - 0.5) * 0.5,
+      };
+
+      // Normalize direction to ensure consistent speed
+      const magnitude = Math.sqrt(
+        direction.x * direction.x + direction.y * direction.y
+      );
+      direction.x /= magnitude;
+      direction.y /= magnitude;
+
+      stars.push({
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        size: Math.random() * 1.5 + 0.3,
+        opacity: Math.random() * 0.4 + 0.1,
+        speed: Math.random() * 0.3 + 0.1,
+        originalX: Math.random() * canvas.width,
+        originalY: Math.random() * canvas.height,
+        isMoving: true,
+        direction,
+      });
+    }
+
     starsRef.current = stars;
 
     return () => {
       window.removeEventListener("resize", resizeCanvas);
     };
-  }, [starCount]);
+  }, [starCount, movingStarCount]);
 
   // Mouse event handlers
   useEffect(() => {
@@ -104,47 +139,48 @@ export function StarField({
       if (!stars) return;
 
       stars.forEach((star) => {
-        // Calculate distance from mouse
-        const dx = mousePos.x - star.x;
-        const dy = mousePos.y - star.y;
-        const distance = Math.sqrt(dx * dx + dy * dy);
+        if (star.isMoving) {
+          star.x += star.direction!.x * star.speed;
+          star.y += star.direction!.y * star.speed;
 
-        // Apply interaction if mouse is near
-        if (isHovering && distance < interactionRadius) {
-          const force = (interactionRadius - distance) / interactionRadius;
-          const angle = Math.atan2(dy, dx);
-
-          // Move star away from cursor
-          star.x += Math.cos(angle) * force * star.speed * 2;
-          star.y += Math.sin(angle) * force * star.speed * 2;
-
-          // Increase opacity and size when near cursor
-          star.opacity = Math.min(1, star.opacity + force * 0.3);
-          star.size = Math.min(3, star.size + force * 0.5);
+          if (star.x < -50) star.x = canvas.width + 50;
+          if (star.x > canvas.width + 50) star.x = -50;
+          if (star.y < -50) star.y = canvas.height + 50;
+          if (star.y > canvas.height + 50) star.y = -50;
         } else {
-          // Gradually return to original position
-          const dx = star.originalX - star.x;
-          const dy = star.originalY - star.y;
-          star.x += dx * 0.02;
-          star.y += dy * 0.02;
+          const dx = mousePos.x - star.x;
+          const dy = mousePos.y - star.y;
+          const distance = Math.sqrt(dx * dx + dy * dy);
 
-          // Reset opacity and size
-          star.opacity = Math.max(0.2, star.opacity * 0.98);
-          star.size = Math.max(0.5, star.size * 0.98);
+          if (isHovering && distance < interactionRadius) {
+            const force = (interactionRadius - distance) / interactionRadius;
+            const angle = Math.atan2(dy, dx);
+
+            star.x += Math.cos(angle) * force * star.speed * 2;
+            star.y += Math.sin(angle) * force * star.speed * 2;
+
+            star.opacity = Math.min(1, star.opacity + force * 0.3);
+            star.size = Math.min(3, star.size + force * 0.5);
+          } else {
+            const dx = star.originalX - star.x;
+            const dy = star.originalY - star.y;
+            star.x += dx * 0.02;
+            star.y += dy * 0.02;
+
+            star.opacity = Math.max(0.2, star.opacity * 0.98);
+            star.size = Math.max(0.5, star.size * 0.98);
+          }
+
+          star.x = Math.max(0, Math.min(canvas.width, star.x));
+          star.y = Math.max(0, Math.min(canvas.height, star.y));
         }
 
-        // Keep stars within bounds
-        star.x = Math.max(0, Math.min(canvas.width, star.x));
-        star.y = Math.max(0, Math.min(canvas.height, star.y));
-
-        // Draw star
         ctx.save();
         ctx.globalAlpha = star.opacity;
         ctx.fillStyle = "#ffffff";
         ctx.shadowColor = "#ffffff";
         ctx.shadowBlur = star.size * 2;
 
-        // Draw star as a small circle with glow
         ctx.beginPath();
         ctx.arc(star.x, star.y, star.size, 0, Math.PI * 2);
         ctx.fill();

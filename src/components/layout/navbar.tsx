@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { Button } from "../ui/button";
+import { Newspaper } from "lucide-react";
 
 export default function Navbar() {
   return (
@@ -14,8 +15,14 @@ export default function Navbar() {
           </div>
 
           <div className="flex items-center space-x-4">
-            <Button variant="default" className="cursor-pointer" asChild>
-              <Link href="/news">Press Coverage</Link>
+            <Button
+              variant="default"
+              className="cursor-pointer hover:scale-102 transition-all duration-100"
+              asChild
+            >
+              <Link href="/news" className="flex items-center gap-2">
+                Press Coverage <Newspaper />
+              </Link>
             </Button>
           </div>
         </div>

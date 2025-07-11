@@ -1,12 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ChevronRight } from "lucide-react";
+import config from "@/config";
 
 export default function CallCrewLink() {
   return (
     <div className=" mx-auto bg-gray-700/40 hover:bg-gray-700/20">
       <Link
-        href="https://callcrew-ai.com"
+        href={config.callcrew.url}
         target="_blank"
         rel="noopener noreferrer"
         className="transition shadow-lg cursor-pointer flex items-center space-x-4 p-4 max-w-7xl mx-auto"

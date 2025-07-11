@@ -5,8 +5,10 @@ export default function Home() {
   return (
     <main>
       <CallCrewLink />
-
       <HeroSection />
+      <div className="text-center text-muted-foreground">
+        More coming soon...
+      </div>
     </main>
   );
 }

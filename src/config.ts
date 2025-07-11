@@ -11,6 +11,13 @@ const config: ConfigProps = {
     allowedDomains: "adelindiac.site,www.adelindiac.site",
     events: {},
   },
+  callcrew: {
+    url: "https://callcrew-ai.com",
+  },
+  socials: {
+    github: "https://github.com/adelin-diac",
+    linkedin: "https://www.linkedin.com/in/adelin-denis-diac/",
+  },
 };
 
 export default config;
