@@ -1,16 +1,24 @@
-#### v2
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
 # dependencies
-v2-nextjs/node_modules
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 
 # testing
-v2-nextjs/coverage
+/coverage
 
 # next.js
-v2-nextjs/.next/
-v2-nextjs/out/
+/.next/
+/out/
 
 # production
-v2-nextjs/build
+/build
 
 # misc
 .DS_Store
@@ -18,33 +26,16 @@ v2-nextjs/build
 
 # debug
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
 
-# local env files
-.env*.local
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
 
 # typescript
 *.tsbuildinfo
-v2-nextjs/next-env.d.ts
-
-#### v1
-v1-create-react-app/.firebase/hosting.YnVpbGQ.cache
-
-# dependencies
-v1-create-react-app/node_modules
-
-# testing
-v1-create-react-app/coverage
-
-# production
-v1-create-react-app/build
-
-# misc
-v1-create-react-app/.DS_Store
-v1-create-react-app/.env.local
-v1-create-react-app/.env.development.local
-v1-create-react-app/.env.test.local
-v1-create-react-app/.env.production.local
-
-v1-create-react-app/npm-debug.log*
-v1-create-react-app/yarn-debug.log*
-v1-create-react-app/yarn-error.log*
+next-env.d.ts
