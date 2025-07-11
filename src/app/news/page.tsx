@@ -1,9 +1,12 @@
 import { ArticleCard } from "@/components/news/article-card";
 import { ARTICLES } from "./articles";
+import BackButton from "@/components/layout/back-button";
 
 export default function Page() {
   return (
-    <div className="py-30 px-5 md:px-20">
+    <div className="pb-30 px-5 md:px-20">
+      <BackButton href="/" className="my-10" variant="outline" />
+
       <h1 className="text-5xl font-bold text-foreground text-center">
         Press Coverage
       </h1>

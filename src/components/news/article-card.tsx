@@ -38,6 +38,7 @@ export function ArticleCard({ article }: ArticleCardProps) {
           </div>
           <div className="my-auto mx-auto">
             <Image
+              className="rounded-md"
               src={article.image}
               alt={article.title}
               width={100}
