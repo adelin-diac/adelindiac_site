@@ -6,6 +6,7 @@ export default function ChangingHeadline() {
   const words = [
     "Founder",
     "Software Engineer",
+    "Entrepreneur",
     "Mechatronics Grad",
     "Slight Gambler",
     "Sports Enthusiast",
