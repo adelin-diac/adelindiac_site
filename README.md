@@ -7,6 +7,8 @@ Hosted on my own personal server via https://coolify.io/
 TODO:
 
 - Navbar Dropdown - add it in once pages are added
+- Cool things I did - add them in
+- Career section - add it in
 - CONTACT PAGE
 - BLOG PAGE
 - PROJECTS PAGE
