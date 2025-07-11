@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import { Button } from "../ui/button";
 import { Newspaper } from "lucide-react";
+import NavDropdown from "./nav-dropdown";
 
 export default function Navbar() {
   return (
@@ -21,9 +22,12 @@ export default function Navbar() {
               asChild
             >
               <Link href="/news" className="flex items-center gap-2">
-                Press Coverage <Newspaper />
+                <span className="hidden md:block">Press Coverage</span>
+                <Newspaper />
               </Link>
             </Button>
+            {/* TODO: Add NavDropdown */}
+            {/* <NavDropdown /> */}
           </div>
         </div>
       </div>

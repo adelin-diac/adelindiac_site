@@ -6,8 +6,10 @@ Hosted on my own personal server via https://coolify.io/
 
 TODO:
 
-- Navbar Blog Link
-- Navbar Contact Link
-- Navbar Projects Link
+- Navbar Dropdown - add it in once pages are added
+- CONTACT PAGE
+- BLOG PAGE
+- PROJECTS PAGE
 - Set up Resend for contact form + newsletter
+- NEWSLETTER PAGE
 - Add "Sign up to newsletter" to footer & press coverage page

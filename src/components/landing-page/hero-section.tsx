@@ -5,16 +5,20 @@ import config from "@/config";
 
 export default function HeroSection() {
   return (
-    <div className="py-20 px-5 md:px-20">
-      <h1 className="sr-only">Adelin Diac - Founder & Software Engineer</h1>
-      <ChangingHeadline />
-      <span className="text-center my-8 flex items-center justify-center gap-2">
-        <div className="animate-[wiggle-10_2s_ease-in-out_infinite] text-3xl">
-          👋
-        </div>
-        <h3 className="text-lg text-muted-foreground">Hey there, I'm Adelin</h3>
-      </span>
-      <div className="flex justify-center gap-4">
+    <div className="w-full h-[50vh] flex flex-col items-center justify-center">
+      <div>
+        <h1 className="sr-only">Adelin Diac - Founder & Software Engineer</h1>
+        <ChangingHeadline />
+        <span className="text-center my-8 flex items-center justify-center gap-2">
+          <div className="animate-[wiggle-10_2s_ease-in-out_infinite] text-3xl">
+            👋
+          </div>
+          <h3 className="text-lg text-muted-foreground">
+            Hey there, I'm Adelin
+          </h3>
+        </span>
+      </div>
+      <div className="flex justify-center items-center gap-4">
         <Link
           href={config.socials.github}
           target="_blank"
