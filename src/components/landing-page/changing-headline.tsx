@@ -8,9 +8,10 @@ export default function ChangingHeadline() {
     "Software Engineer",
     "Entrepreneur",
     "Mechatronics Grad",
-    "Slight Gambler",
+    "Family Person <3",
     "Sports Enthusiast",
     "Constant Learner",
+    "Slight Gambler",
   ];
   const currentText = useTypingAnimation(words);
 
