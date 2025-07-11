@@ -4,9 +4,9 @@ FROM node:22-alpine as builder
 WORKDIR /app
 
 # Install deps and build static files
-COPY v2-next-js/package*.json ./
+COPY v2-nextjs/package*.json ./
 RUN npm ci --only=production
-COPY v2-next-js/ .
+COPY v2-nextjs/ .
 RUN npm run build
 
 ### RUNNER STAGE ###
