@@ -26,7 +26,7 @@ const ACHIEVEMENTS: Achievement[] = [
     emoji: "💸",
     title: "€10M+ Impact",
     description:
-      "HereWorks internship - I built a core analytics system saving 2,000+ hours/year and projected to generate €10M+.",
+      "Hereworks internship - I built a core analytics system saving 2,000+ hours/year and projected to generate €10M+.",
   },
   {
     emoji: "🤖",
