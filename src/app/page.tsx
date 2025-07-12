@@ -7,11 +7,11 @@ export default function Home() {
   return (
     <main>
       <CallCrewLink />
-      <div className="px-5 md:px-20 max-w-6xl mx-auto flex flex-col items-center justify-center gap-y-50 py-20">
+      <div className="px-4 md:px-20 max-w-6xl mx-auto flex flex-col items-center justify-center gap-y-50 py-20">
         <HeroSection />
 
-        {/* <Achievments />
-        <Career /> */}
+        <Achievments />
+        {/* <Career /> */}
       </div>
     </main>
   );

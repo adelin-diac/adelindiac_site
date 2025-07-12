@@ -26,8 +26,7 @@ export default function Navbar() {
                 <Newspaper />
               </Link>
             </Button>
-            {/* TODO: Add NavDropdown */}
-            {/* <NavDropdown /> */}
+            <NavDropdown />
           </div>
         </div>
       </div>

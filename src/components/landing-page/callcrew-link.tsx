@@ -9,7 +9,7 @@ export default function CallCrewLink() {
       <Link
         href={config.callcrew.url}
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener"
         className="transition shadow-lg cursor-pointer flex items-center space-x-4 p-4 max-w-7xl mx-auto"
       >
         <Image

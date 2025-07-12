@@ -86,9 +86,9 @@ export function StarField({
       stars.push({
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
-        size: Math.random() * 1.5 + 0.3,
-        opacity: Math.random() * 0.4 + 0.1,
-        speed: Math.random() * 0.3 + 0.1,
+        size: Math.random() * 3 + 1,
+        opacity: Math.random() * 0.6 + 0.4,
+        speed: Math.random() * 0.5 + 0.2,
         originalX: Math.random() * canvas.width,
         originalY: Math.random() * canvas.height,
         isMoving: true,
@@ -179,7 +179,7 @@ export function StarField({
         ctx.globalAlpha = star.opacity;
         ctx.fillStyle = "#ffffff";
         ctx.shadowColor = "#ffffff";
-        ctx.shadowBlur = star.size * 2;
+        ctx.shadowBlur = star.isMoving ? star.size * 3 : star.size * 2;
 
         ctx.beginPath();
         ctx.arc(star.x, star.y, star.size, 0, Math.PI * 2);

@@ -11,7 +11,7 @@ export function ArticleCard({ article }: ArticleCardProps) {
     <Link
       href={article.url}
       target="_blank"
-      rel="noopener noreferrer"
+      rel="noopener"
       className="group block w-full max-w-3xl mx-auto"
     >
       <div className="bg-card border border-border rounded-lg p-6 hover:scale-102 transition-transform duration-300 ease-in-out">
