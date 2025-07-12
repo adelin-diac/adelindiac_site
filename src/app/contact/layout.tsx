@@ -1,9 +1,9 @@
 import { getSEOTags } from "@/lib/seo";
 
 export const metadata = getSEOTags({
-  description: "Adelin Diac News",
-  title: "News | Adelin Diac",
-  canonicalUrlRelative: "/news",
+  description: "Adelin Diac Contact",
+  title: "Contact | Adelin Diac",
+  canonicalUrlRelative: "/contact",
 });
 
 export default async function Layout({

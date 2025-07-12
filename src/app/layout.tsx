@@ -61,11 +61,11 @@ export default function RootLayout({
           interactionRadius={100}
           className="opacity-40"
         />
-        <div className="relative z-10 min-h-screen flex flex-col">
+        <main className="relative z-10 min-h-screen flex flex-col">
           <Navbar />
           {children}
           <Footer />
-        </div>
+        </main>
       </body>
     </html>
   );

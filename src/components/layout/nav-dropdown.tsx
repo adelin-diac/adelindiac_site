@@ -13,7 +13,7 @@ import {
 const NAV_LINKS = [
   {
     label: "Blog",
-    href: "/blog",
+    href: "/blogs",
     icon: FileText,
   },
   {
