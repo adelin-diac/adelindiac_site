@@ -19,12 +19,12 @@ export default function HeroSection() {
         </span>
       </div>
       <div className="flex justify-center items-center gap-4">
-        <Link href={config.socials.github} target="_blank" rel="noopener">
+        <a href={config.socials.github} target="_blank" rel="noopener">
           <GithubIcon className="w-8 h-8 cursor-pointer hover:scale-110 transition-all duration-100" />
-        </Link>
-        <Link href={config.socials.linkedin} target="_blank" rel="noopener">
+        </a>
+        <a href={config.socials.linkedin} target="_blank" rel="noopener">
           <LinkedinIcon className="w-8 h-8 cursor-pointer hover:scale-110 transition-all duration-100" />
-        </Link>
+        </a>
       </div>
     </div>
   );

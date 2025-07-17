@@ -51,6 +51,8 @@ export default function RootLayout({
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon.png" />
         <meta name="apple-mobile-web-app-title" content="Adelin Diac" />
         <link rel="manifest" href="/site.webmanifest" />
+
+        <meta name="referrer" content="origin-when-cross-origin" />
       </head>
 
       <body

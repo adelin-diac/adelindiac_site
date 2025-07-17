@@ -8,7 +8,7 @@ interface ArticleCardProps {
 
 export function ArticleCard({ article }: ArticleCardProps) {
   return (
-    <Link
+    <a
       href={article.url}
       target="_blank"
       rel="noopener"
@@ -47,6 +47,6 @@ export function ArticleCard({ article }: ArticleCardProps) {
           </div>
         </div>
       </div>
-    </Link>
+    </a>
   );
 }

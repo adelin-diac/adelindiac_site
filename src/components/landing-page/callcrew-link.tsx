@@ -6,7 +6,7 @@ import config from "@/config";
 export default function CallCrewLink() {
   return (
     <div className=" mx-auto bg-gray-700/40 hover:bg-gray-700/20">
-      <Link
+      <a
         href={config.callcrew.url}
         target="_blank"
         rel="noopener"
@@ -29,7 +29,7 @@ export default function CallCrewLink() {
             <ChevronRight className="w-4 h-4" />
           </span>
         </div>
-      </Link>
+      </a>
     </div>
   );
 }

@@ -6,13 +6,13 @@ export default function BlogsComingSoon() {
       <h1 className="text-4xl font-bold mb-4">Contact Coming Soon...</h1>
       <p className="text-lg text-muted-foreground mb-8 text-center max-w-xl">
         For now, reach out to me on :{" "}
-        <Link
+        <a
           href="https://www.linkedin.com/in/adelin-denis-diac/"
           target="_blank"
           className="text-primary underline hover:no-underline"
         >
           LinkedIn
-        </Link>
+        </a>
       </p>
     </div>
   );

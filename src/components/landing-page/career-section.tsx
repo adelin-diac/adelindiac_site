@@ -67,7 +67,7 @@ export default function CareerSection({
               />
             </div>
 
-            <Link
+            <a
               href={careerBlock.link}
               target="_blank"
               rel="noopener"
@@ -77,7 +77,7 @@ export default function CareerSection({
               <span className="group-hover/link:translate-x-0.5 transition-transform duration-200">
                 →
               </span>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
