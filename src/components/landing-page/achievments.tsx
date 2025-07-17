@@ -1,4 +1,4 @@
-import ACHIEVEMENTS from "./achievements-list";
+import ACHIEVEMENTS from "@/static-data/achievements-list";
 
 export default function Achievments() {
   return (

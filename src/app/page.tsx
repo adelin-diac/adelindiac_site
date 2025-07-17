@@ -9,9 +9,8 @@ export default function Home() {
       <CallCrewLink />
       <div className="px-4 md:px-20 max-w-6xl mx-auto flex flex-col items-center justify-center gap-y-50 py-20">
         <HeroSection />
-
         <Achievments />
-        {/* <Career /> */}
+        <Career />
       </div>
     </section>
   );
