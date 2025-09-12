@@ -13,6 +13,18 @@ import { CareerBlock } from "@/types/career.types";
 // Reminder - do this in reverse chronological order (newest first)
 const CAREER_BLOCKS: CareerBlock[] = [
   {
+    title: "Co-Founder & CEO",
+    company: "CallCrewAI",
+    description:
+      "Co-Founded CallCrewAI, the AI team member for construction companies.",
+    image: "/images/callcrew-ai.png",
+    link: "https://www.callcrew-ai.com/",
+    tags: ["AI", "Voice Assistant", "Construction", "Startups"],
+    startDate: "September 2025",
+    endDate: "Present",
+    type: "START_UP",
+  },
+  {
     title: "Site Reliability Engineer",
     company: "Susquehanna International Group",
     description:
@@ -31,7 +43,7 @@ const CAREER_BLOCKS: CareerBlock[] = [
       "Poker",
     ],
     startDate: "April 2025",
-    endDate: "Present",
+    endDate: "September 2025",
     type: "JOB",
   },
   {

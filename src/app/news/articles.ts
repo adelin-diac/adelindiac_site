@@ -13,7 +13,7 @@ export const ARTICLES: Article[] = [
       "CallCrewAI the AI team member for construction companies, took part in the NDRC Pre-Accelerator Cohort Autumn 2025.",
     source: "NDRC",
     date: "September 2025",
-    image: "/images/ndrc.png",
+    image: "/images/callcrew-ai.png",
   },
   {
     title: "The Weekend That Changed the Trajectory of Builders",
