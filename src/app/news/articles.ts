@@ -7,6 +7,15 @@ import { Article } from "@/types/articles.types";
  */
 export const ARTICLES: Article[] = [
   {
+    url: "https://www.ndrc.ie/pre-accelerator-cohort-autumn-2025",
+    title: "CallCrewAI Part of NDRC Pre-Accelerator Cohort Autumn 2025",
+    description:
+      "CallCrewAI the AI team member for construction companies, took part in the NDRC Pre-Accelerator Cohort Autumn 2025.",
+    source: "NDRC",
+    date: "September 2025",
+    image: "/images/ndrc.png",
+  },
+  {
     title: "The Weekend That Changed the Trajectory of Builders",
     description:
       "PorterShed was buzzing with startup spirit as the NDRC Founder Weekend landed in Galway — the so-called City of the Tribes.",
