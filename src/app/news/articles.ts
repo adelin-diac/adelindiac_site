@@ -4,6 +4,11 @@ import { Article } from "@/types/articles.types";
  * Articles where I was mentioned.
  *
  * Note to self - List them in chronological order (Newest first).
+ *
+ * Others not mentioned:
+ *
+ * (2021) https://www.nationaltransport.ie/tfi-smarter-travel/smarter-travel-campus/smarter-travel-student-awards/
+ * (2019) https://www.stvincentsnewsroom.com/single-post/awards-night-highlights
  */
 export const ARTICLES: Article[] = [
   {
@@ -40,6 +45,15 @@ export const ARTICLES: Article[] = [
     url: "https://www.dcu.ie/engineeringandcomputing/news/2024/oct/deans-honours-list-autumn-2024",
     source: "DCU",
     date: "October 2024",
+    image: "/images/dcu.jpg",
+  },
+  {
+    title: "Final Year Project - B.Eng. Mechatronics Engineering",
+    description:
+      'Description of final year project titled: "Smart Home Water Flow Sensing & Control using ESPHome & Home Assistant"',
+    url: "http://flipper.ie/publications/DCU-Expo-2024-Final-Year-Projects/34/",
+    source: "DCU",
+    date: "May 2024",
     image: "/images/dcu.jpg",
   },
 ];
