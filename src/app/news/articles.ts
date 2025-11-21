@@ -12,6 +12,26 @@ import { Article } from "@/types/articles.types";
  */
 export const ARTICLES: Article[] = [
   {
+    title:
+      "'Think global from day one' - Dundalk duo return from Silicon Valley with bold plans for AI venture",
+    description:
+      "DCU graduates Emmanuel Karibiye and Adelin Diac say trades firms are crying out for help managing constant calls — and believe their new AI assistant can transform the industry.",
+    url: "https://m.independent.ie/business/technology/think-global-from-day-one-dundalk-duo-return-from-silicon-valley-with-bold-plans-for-ai-venture/a1212712129.html#",
+    source: "Irish Independent",
+    date: "November 2025",
+    image: "/images/indo-article.jpg",
+  },
+  {
+    title:
+      "Meet the DCU Graduates Revolutionising Customer Calls with CallCrewAI",
+    description:
+      "When Adelin Diac and Emmanuel Karibiye crossed paths at DCU, they quickly recognised a shared passion for technology, problem-solving, and building things that make a tangible difference. That common spark would eventually lead them to create CallCrewAI, an intelligent voice agent platform designed to help trades and service companies manage customer calls, scheduling, and diagnostics - all powered by AI.",
+    url: "https://dcuinnovate.com/updates/meet-the-dcu-graduates-revolutionising-customer-calls-with-callcrewai",
+    source: "DCU Innovate",
+    date: "November 2025",
+    image: "/images/dcu-article.jpg",
+  },
+  {
     url: "https://www.ndrc.ie/pre-accelerator-cohort-autumn-2025",
     title: "CallCrewAI Part of NDRC Pre-Accelerator Cohort Autumn 2025",
     description:
