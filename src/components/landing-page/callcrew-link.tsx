@@ -21,7 +21,8 @@ export default function CallCrewLink() {
         />
         <div className="text-base text-primary flex items-center justify-between w-full">
           <span className="mx-2">
-            <strong>CallCrew AI</strong> - The AI Team Member for Home Services & Trades
+            <strong>CallCrewAI</strong> - The autopilot for trades & field
+            services
           </span>
           <span className="text-sm flex items-center gap-2">
             <span className="hidden md:block">Learn more</span>{" "}
