@@ -1,7 +1,19 @@
 import config from "@/config";
 import type { MetadataRoute } from "next";
+import { getAllBlogs } from "@/lib/blogs";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  // Get all blog posts
+  const blogs = await getAllBlogs();
+
+  // Generate blog URLs
+  const blogUrls: MetadataRoute.Sitemap = blogs.map((blog) => ({
+    url: `https://${config.domainName}/blogs/${blog.slug}`,
+    lastModified: new Date(blog.createdAt),
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
   return [
     {
       url: `https://${config.domainName}`,
@@ -15,5 +27,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.8,
     },
+    {
+      url: `https://${config.domainName}/blogs`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    ...blogUrls,
   ];
 }
