@@ -8,10 +8,12 @@ TODO:
 
 - CONTACT PAGE
 - BLOG PAGE
+  - Include search & semantic search
 - PROJECTS PAGE - add in projects
   - Startup Projects - MH1 Tutors, 3D Habits, CallCrewAI
   - Personal Projects
   - College Projects
+- Links page
 - Set up Resend for contact form + newsletter
 - JOIN NEWSLETTER PAGE
 - Add "Sign up to newsletter" to footer & press coverage page

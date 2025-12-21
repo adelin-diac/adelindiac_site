@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
+import NextTopLoader from "nextjs-toploader";
 
 import config from "@/config";
 import Footer from "@/components/layout/footer";
@@ -63,6 +64,8 @@ export default function RootLayout({
           interactionRadius={100}
           className="opacity-40"
         />
+        <NextTopLoader color="#0275d8" showSpinner={false} height={4} />
+
         <main className="relative z-10 min-h-screen flex flex-col">
           <Navbar />
           {children}
