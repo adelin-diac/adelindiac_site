@@ -19,9 +19,16 @@ export default async function BlogsPage({ searchParams }: PageProps) {
       {/* Header Section */}
       <div className="w-full flex flex-col items-center text-center mb-16">
         {/* Title */}
-        <h1 className="text-5xl md:text-6xl font-bold mb-6 text-foreground">
+        <h1 className="text-5xl md:text-6xl font-bold mb-6 text-foreground hidden">
           Adelin's Blog
         </h1>
+
+        {/* Badge */}
+        <div className="mb-4">
+          <span className="px-3 py-1.5 rounded-full text-sm font-medium bg-foreground/10 text-foreground border border-border">
+            ✨ Latest Blogs
+          </span>
+        </div>
 
         {/* Description */}
         <p className="text-lg text-muted-foreground max-w-2xl">

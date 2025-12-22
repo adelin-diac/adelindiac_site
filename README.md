@@ -11,7 +11,7 @@ TODO:
   - Include search & semantic search
 - PROJECTS PAGE - add in projects
   - Startup Projects - MH1 Tutors, 3D Habits, CallCrewAI
-  - Personal Projects
+  - Personal Projects - Linkpad
   - College Projects
 - Links page
 - Set up Resend for contact form + newsletter

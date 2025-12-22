@@ -3,6 +3,7 @@ import { getSEOTags } from "@/lib/seo";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import BackButton from "@/components/layout/back-button";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -54,13 +55,7 @@ export default async function BlogPage({ params }: PageProps) {
   return (
     <section className="max-w-3xl mx-auto px-4 py-12">
       {/* Back Button */}
-      <Link
-        href="/blogs"
-        className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground mb-8 transition-colors"
-      >
-        <ArrowLeft className="w-4 h-4" />
-        Back to blogs
-      </Link>
+      <BackButton href="/blogs" className="mb-4" variant="outline" />
 
       {/* Blog Header */}
       <article>

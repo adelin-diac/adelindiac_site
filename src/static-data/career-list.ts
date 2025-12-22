@@ -16,10 +16,10 @@ const CAREER_BLOCKS: CareerBlock[] = [
     title: "Co-Founder & CEO",
     company: "CallCrewAI",
     description:
-      "Co-Founded CallCrewAI, the AI team member for construction companies.",
+      "Co-Founded CallCrewAI - the autopilot for trades & field services.",
     image: "/images/callcrew-ai.png",
     link: "https://www.callcrew-ai.com/",
-    tags: ["AI", "Voice Assistant", "Construction", "Startups"],
+    tags: ["AI", "Voice Assistant", "Construction", "Startups", "Automation"],
     startDate: "September 2025",
     endDate: "Present",
     type: "START_UP",
