@@ -38,5 +38,29 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
         {children}
       </CustomLink>
     ),
+    code: ({ children, className }) => {
+      const isInline = !className;
+
+      if (isInline) {
+        // Inline code styling
+        return (
+          <code className="px-1.5 py-0.5 rounded bg-foreground/10 text-foreground font-mono text-sm border border-border">
+            {children}
+          </code>
+        );
+      }
+
+      // Code block styling
+      return (
+        <code className={className}>
+          {children}
+        </code>
+      );
+    },
+    pre: ({ children }) => (
+      <pre className="bg-foreground/5 border border-border rounded-lg p-4 overflow-x-auto mb-4 font-mono text-sm">
+        {children}
+      </pre>
+    ),
   };
 }
