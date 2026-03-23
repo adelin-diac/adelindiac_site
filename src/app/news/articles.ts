@@ -12,6 +12,14 @@ import { Article } from "@/types/articles.types";
  */
 export const ARTICLES: Article[] = [
   {
+    title: "Irish AI start-up targets missed calls and lost revenue in trades",
+    description: "CallCrewAI promises round-the-clock automation for field-service firms.",
+    url: "https://www.irishtimes.com/business/innovation/2026/03/19/irish-ai-start-up-targets-missed-calls-and-lost-revenue-in-trades/",
+    source: "Irish Times",
+    date: "March 2026",
+    image: "/images/irish-times-article.png",
+  },
+  {
     title:
       "'Think global from day one' - Dundalk duo return from Silicon Valley with bold plans for AI venture",
     description:
