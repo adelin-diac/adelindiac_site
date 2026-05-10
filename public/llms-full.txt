@@ -1,0 +1,66 @@
+# Adelin Diac — Full Context
+
+> Founder & Software Engineer. I build cool things. I'm curious about everything.
+
+## About
+
+Adelin Diac is a founder and software engineer based in Ireland. He is the Co-Founder & CEO of CallCrewAI — the autopilot for trades & field services. CallCrewAI uses AI voice assistants to help construction and field service companies automate scheduling, customer calls, and operations.
+
+Adelin graduated #1 in his class from Dublin City University with a B.Eng in Mechatronic Engineering (1st class honours). He was on the Dean's Honours List (top 5% of the Faculty of Engineering & Computing).
+
+## Career (Reverse Chronological)
+
+### Co-Founder & CEO — CallCrewAI (Sep 2025 – Present)
+Co-Founded CallCrewAI — the autopilot for trades & field services. Building AI voice assistants for the construction and field services industry.
+Tags: AI, Voice Assistant, Construction, Startups, Automation
+Website: https://www.callcrew-ai.com/
+
+### Site Reliability Engineer — Susquehanna International Group (Apr 2025 – Sep 2025)
+Maintained 99.999% uptime. Wrote automations, migrated legacy systems to Docker/Kubernetes.
+Tags: Python, Docker, CI/CD, GitLab, Linux, Networking, DNS, DHCP
+
+### Software Engineer — IBM (Sep 2024 – Apr 2025)
+Worked on IBM's Multi-Cloud SaaS Platform team, enabling any IBM Cloud product to become a subscription service without additional code. Won the internal new joiner hackathon with an AI Voice Agent for meeting summarisation.
+Tags: Python, Golang, Bash, Docker, Kubernetes, CI/CD, GitLab, Linux
+
+### Graduated from DCU (Jun 2024)
+Graduated top of class from Dublin City University with a B.Eng in Mechatronics Engineering. 1st class honours. Dean's Honours List.
+
+### Founder — MH1 Tutors (Mar 2023 – Jun 2024)
+Expanded tutoring business into MH1 Tutors, a platform connecting Irish grinds tutors with students. Facilitated 400+ successful student-tutor connections.
+Tags: Entrepreneurship, Full Stack, Sales, Marketing, Python, React, NodeJS, AWS, GCP
+Website: https://www.mh1-tutors.com/
+
+### Software Engineer — Hereworks (Jun 2022 – Sep 2023)
+Built React + Firebase app for smart building project tracking, saving 100+ hours through QR tagging and role-based access. Automated smart building deployments with Python. Integrated ML anomaly detection models. Contributed to Google's Digital Buildings open-source project.
+Tags: Full Stack, Python, React, NodeJS, AWS, GCP, Data Analysis
+
+### Maths Tutoring Business — Maths Help Ireland (Oct 2020 – Mar 2023)
+Started an online maths tutoring business. Provided 1-on-1 Maths grinds to Junior Cert, Leaving Cert and College students. Taught 100+ students while managing a team of two additional tutors.
+Tags: Entrepreneurship, Sales, Marketing, Communication, Teaching, Mentoring
+
+### Started B.Eng. at DCU (Sep 2020)
+Began B.Eng in Engineering at Dublin City University.
+
+## Achievements
+
+- **#1 Place Graduate** — Graduated top of class, only student to achieve 1st class honours
+- **Dean's Honors List** — Top 5% of graduates in DCU Faculty of Engineering & Computing
+- **Founders Weekend Winner** — Won at PorterShed (NDRC Galway) with AI voice assistant for construction
+- **€10M+ Impact** — Built core analytics system at Hereworks saving 2,000+ hours/year
+- **AI Hackathon Winner** — Won IBM internal hackathon with meeting-summary AI agent for Teams calls
+- **400+ Student-Tutor Connections** — Founded MH1 Tutors during college
+- **100+ Students Taught** — Tutored Leaving Cert students in Maths
+- **Secondary School Record Points** — First student to exceed 600 CAO points (max 625)
+
+## Technical Skills
+
+Python, Golang, JavaScript/TypeScript, React, Next.js, Node.js, Docker, Kubernetes, AWS, GCP, Firebase, CI/CD, GitLab, Linux, Networking, Bash, AI/ML
+
+## Links
+
+- Website: https://adelindiac.site
+- GitHub: https://github.com/adelin-diac
+- LinkedIn: https://www.linkedin.com/in/adelin-denis-diac/
+- CallCrewAI: https://www.callcrew-ai.com/
+- MH1 Tutors: https://www.mh1-tutors.com/

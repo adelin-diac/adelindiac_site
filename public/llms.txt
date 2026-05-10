@@ -1,0 +1,39 @@
+# Adelin Diac
+
+> Founder & Software Engineer. I build cool things.
+
+Adelin Diac is a founder and software engineer based in Ireland. He is the Co-Founder & CEO of CallCrewAI — the autopilot for trades & field services, using AI voice assistants to help construction and field service companies automate their operations.
+
+## Background
+
+- Co-Founder & CEO at CallCrewAI (Sep 2025 – Present)
+- Site Reliability Engineer at Susquehanna International Group (Apr 2025 – Sep 2025)
+- Software Engineer at IBM (Sep 2024 – Apr 2025)
+- Founder of MH1 Tutors — 400+ student-tutor connections (Mar 2023 – Jun 2024)
+- Software Engineer Intern at Hereworks (Jun 2022 – Sep 2023)
+- Founded a maths tutoring business, taught 100+ students (Oct 2020 – Mar 2023)
+- B.Eng in Mechatronic Engineering from Dublin City University — graduated #1 in class, 1st class honours, Dean's Honours List (2020 – 2024)
+
+## Key Achievements
+
+- #1 Place Graduate — top of class, only student to achieve 1st class honours
+- Dean's Honors List — top 5% of graduates in DCU Faculty of Engineering & Computing
+- Founders Weekend Winner at PorterShed (NDRC Galway) — AI voice assistant for construction
+- €10M+ projected impact from analytics system built during Hereworks internship
+- IBM internal AI Hackathon Winner — meeting-summary AI agent for Teams calls
+- First student in secondary school to exceed 600 CAO points (max 625)
+
+## Links
+
+- Website: https://adelindiac.site
+- GitHub: https://github.com/adelin-diac
+- LinkedIn: https://www.linkedin.com/in/adelin-denis-diac/
+- CallCrewAI: https://www.callcrew-ai.com/
+
+## Pages
+
+- [Home](https://adelindiac.site/)
+- [News](https://adelindiac.site/news)
+- [Blogs](https://adelindiac.site/blogs)
+- [Projects](https://adelindiac.site/projects)
+- [Contact](https://adelindiac.site/contact)

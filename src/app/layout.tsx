@@ -9,6 +9,7 @@ import Footer from "@/components/layout/footer";
 import Navbar from "@/components/layout/navbar";
 import { StarField } from "@/components/layout/star-field";
 import { getSEOTags } from "@/lib/seo";
+import StructuredData from "@/components/structured-data";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -54,6 +55,9 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
 
         <meta name="referrer" content="origin-when-cross-origin" />
+
+        {/* AEO: LLM-readable content discovery */}
+        <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-readable site info" />
       </head>
 
       <body
@@ -66,6 +70,7 @@ export default function RootLayout({
         />
         <NextTopLoader color="#0275d8" showSpinner={false} height={4} />
 
+        <StructuredData />
         <main className="relative z-10 min-h-screen flex flex-col">
           <Navbar />
           {children}
